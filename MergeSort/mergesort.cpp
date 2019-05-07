@@ -1,8 +1,9 @@
-#include <iostream>
+#include <iterator>
 
-int main(int argc, char* argv[]){
-	for(int i = 0; i < argc; i++){
-		std::cout << argv[i] << std::endl;
-	}	
-	return 1;
+#include "mergesort.h"
+
+void Sort::MergeSort(int arr[], int size){
+	for(int i = 0; i < size; i++){
+        arr[i] = 0;
+    }
 }
